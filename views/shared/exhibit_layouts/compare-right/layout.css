@@ -1,0 +1,31 @@
+/* CSS for the compare-right layout */
+
+.primary,
+.secondary {
+    float:left; 
+    width:49%;
+    overflow:hidden;
+    zoom:1;
+}
+
+.secondary {
+    float:right; 
+}
+
+.gallery .exhibit-item {
+    display: block;
+    vertical-align: top;
+    margin-right: 1%;
+    /* IE 7 */
+    *display: block;
+    zoom: 1;
+}
+
+.exhibit-item {
+    margin-bottom:2%;
+}
+
+.exhibit-item img {
+    max-width: 100%;
+}
+
